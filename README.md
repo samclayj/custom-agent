@@ -1,10 +1,5 @@
 # README
 
-TODO:
-
-- [ ] Fix API key so it isn't in the python file.
-
-
 Custom environment:
 
 ```
