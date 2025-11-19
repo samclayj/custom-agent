@@ -28,3 +28,7 @@ Start Jupyter (after activating virtual environment):
 ```
 jupyter lab
 ```
+
+API Keys:
+
+- Set in .env file.
