@@ -12,8 +12,19 @@ Activate:
 source custom-agent-venv/bin/activate
 ```
 
-Deps:
+Update Deps (after activating virtual environment):
 
 ```
-source custom-agent-venv/bin/activate && pip3 install openai
+pip freeze > requirements.txt
+```
+
+Install Deps (after activating virtual environment):
+
+```
+pip install -r requirements.txt
+```
+
+Start Jupyter (after activating virtual environment):
+```
+jupyter lab
 ```
